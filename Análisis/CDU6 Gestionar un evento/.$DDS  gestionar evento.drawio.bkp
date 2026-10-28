@@ -1,0 +1,110 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="QLkUb2TtujwjgMF_9A5g">
+    <mxGraphModel dx="1704" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Como la gestion de un evento puede ser, crearlo, modificarlo o eliminar el evento, en esta instancia probaremos el caso de crear un evento.&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="480" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-23" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value=":Organizador&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="60" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-24" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;font&gt;:PantallaEvento&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="200" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-25" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=15;" value=":Gestion&lt;div&gt;Evento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-26" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=15;" value=":Evento" vertex="1">
+          <mxGeometry height="140" width="140" x="680" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-27" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="440" width="10" x="65" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-30" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="720" as="sourcePoint" />
+            <mxPoint x="279.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-31" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="720" as="sourcePoint" />
+            <mxPoint x="519.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-32" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="720" as="sourcePoint" />
+            <mxPoint x="749.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-33" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="270" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;startFill=0;" target="LuFmFf4H1XeLUb8mMNwK-33" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Crear un evento&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100.00000000000023" y="315.0000000000002" />
+            </Array>
+            <mxPoint x="75" y="315" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-35" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="510" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;startFill=0;" target="LuFmFf4H1XeLUb8mMNwK-35" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Crear un evento&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="377.4999999999998" y="355" />
+            </Array>
+            <mxPoint x="280" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-38" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="740" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;startFill=0;" target="LuFmFf4H1XeLUb8mMNwK-38" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Inicializar información para un evento&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="395" />
+            </Array>
+            <mxPoint x="520" y="395" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Información guardada&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="740" y="470" as="sourcePoint" />
+            <mxPoint x="520" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-43" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="&lt;span style=&quot;font-size: 12px; text-align: center; white-space: normal;&quot;&gt;Crear Evento&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.2182" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="500" />
+              <mxPoint x="550" y="550" />
+            </Array>
+            <mxPoint x="520" y="500" as="sourcePoint" />
+            <mxPoint x="520" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Evento creado&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="510" y="640" as="sourcePoint" />
+            <mxPoint x="280" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuFmFf4H1XeLUb8mMNwK-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="LuFmFf4H1XeLUb8mMNwK-27" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Evento creado&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" x="0.1795" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="680" />
+            </Array>
+            <mxPoint x="270" y="680" as="sourcePoint" />
+            <mxPoint x="40" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
